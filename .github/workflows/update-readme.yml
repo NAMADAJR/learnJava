@@ -29,3 +29,4 @@ jobs:
           commit_message: "chore: auto-update README structure"
           branch: ${{ github.ref }}
           file_pattern: README.md
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
