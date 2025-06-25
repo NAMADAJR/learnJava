@@ -1,4 +1,4 @@
-package Classes;
+package OOP.Classes;
 
 public class Student extends Person {
     private String studentId;
