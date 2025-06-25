@@ -28,7 +28,7 @@ def generate_structure(root_dir=".", prefix=""):
 
 def generate_learning_section():
     lines = []
-    lines.append("## 🧱 What You'll Learn\n")
+    lines.append("This repository is organized around the major topics you'll encounter when learning Java:\n")
     lines.append("| Topic | Description |")
     lines.append("| ----- | ----------- |")
     for key in sorted(LEARNING_TOPICS):
